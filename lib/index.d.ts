@@ -15,4 +15,7 @@ import { MidiOut } from './instruments/MidiOut';
 import Permutator from './musicians/Permutator';
 import { Voicing } from './harmony/Voicing';
 import { Permutation } from './util/Permutation';
-export { Trio, Band, Pianist, Bassist, Drummer, Instrument, Musician, Synthesizer, Sampler, Permutator, MidiOut, PlasticDrums, Pulse, util, RealParser, Voicing, Permutation, };
+import { Piano } from './samples/piano';
+import { Drumset } from './samples/drumset';
+import { Metronome } from './samples/metronome';
+export { Trio, Band, Pianist, Bassist, Drummer, Instrument, Musician, Synthesizer, Sampler, Permutator, MidiOut, PlasticDrums, Pulse, util, RealParser, Voicing, Permutation, Drumset, Piano, Metronome, };
