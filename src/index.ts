@@ -15,6 +15,9 @@ import { MidiOut } from './instruments/MidiOut';
 import Permutator from './musicians/Permutator';
 import { Voicing } from './harmony/Voicing';
 import { Permutation } from './util/Permutation';
+import { Piano } from './samples/piano';
+import { Drumset } from './samples/drumset';
+import { Metronome } from './samples/metronome';
 /* import { WebAudioFont } from './instruments/WebAudioFont'; */
 
 export {
@@ -36,4 +39,7 @@ export {
     RealParser,
     Voicing,
     Permutation,
+    Drumset,
+    Piano,
+    Metronome,
 };
