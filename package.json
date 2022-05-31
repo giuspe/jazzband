@@ -9,7 +9,8 @@
   "scripts": {
     "test": "jest --watch",
     "publish": "npm publish",
-    "build": "rm -rf lib/ && tsc",
+    "build": "rm -rf lib/ && tsc && npm run fix-samples",
+    "fix-samples": "rm -vfr lib/samples/drummer; cp -rv src/samples/{drummer,piano,metronome.wav} ./lib/samples",
     "watch": "tsc --watch",
     "docs": "typedoc src",
     "demo-tone": "parcel ./demo-tone/index.html --out-dir ./demo-tone/dist --no-hmr",

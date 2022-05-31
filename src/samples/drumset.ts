@@ -1,10 +1,9 @@
-
-import k from './drummer/kick.wav';
-import s from './drummer/snare.wav';
-import h from './drummer/hihat.wav';
-import r from './drummer/ride.wav';
-import c from './drummer/crash.wav';
-import rs from './drummer/rimshot.wav';
+const k = require('./drummer/kick.wav')
+const s = require('./drummer/snare.wav')
+const h = require('./drummer/hihat.wav')
+const r = require('./drummer/ride.wav')
+const c = require('./drummer/crash.wav')
+const rs = require('./drummer/rimshot.wav')
 
 export const kick = k;
 export const snare = s;
