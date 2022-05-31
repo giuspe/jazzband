@@ -18,4 +18,7 @@ import { Permutation } from './util/Permutation';
 import { Piano } from './samples/piano';
 import { Drumset } from './samples/drumset';
 import { Metronome } from './samples/metronome';
-export { Trio, Band, Pianist, Bassist, Drummer, Instrument, Musician, Synthesizer, Sampler, Permutator, MidiOut, PlasticDrums, Pulse, util, RealParser, Voicing, Permutation, Drumset, Piano, Metronome, };
+import { bossa } from './grooves/bossa';
+import { funk } from './grooves/funk';
+import { swing } from './grooves/swing';
+export { Trio, Band, Pianist, Bassist, Drummer, Instrument, Musician, Synthesizer, Sampler, Permutator, MidiOut, PlasticDrums, Pulse, util, RealParser, Voicing, Permutation, Drumset, Piano, Metronome, bossa, funk, swing, };

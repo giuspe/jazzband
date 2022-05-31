@@ -18,6 +18,10 @@ import { Permutation } from './util/Permutation';
 import { Piano } from './samples/piano';
 import { Drumset } from './samples/drumset';
 import { Metronome } from './samples/metronome';
+import { bossa } from './grooves/bossa';
+// import { disco } from '../src/grooves/disco';
+import { funk } from './grooves/funk';
+import { swing } from './grooves/swing';
 /* import { WebAudioFont } from './instruments/WebAudioFont'; */
 
 export {
@@ -42,4 +46,7 @@ export {
     Drumset,
     Piano,
     Metronome,
+    bossa,
+    funk,
+    swing,
 };
