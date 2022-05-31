@@ -15,9 +15,11 @@ import { MidiOut } from './instruments/MidiOut';
 import Permutator from './musicians/Permutator';
 import { Voicing } from './harmony/Voicing';
 import { Permutation } from './util/Permutation';
-import { Piano } from './samples/piano';
-import { Drumset } from './samples/drumset';
-import { Metronome } from './samples/metronome';
+
+import { piano, drumset, metronome } from './samples/samples';
+// import { Piano } from './samples/piano';
+// import { Drumset } from './samples/drumset';
+// import { Metronome } from './samples/metronome';
 import { bossa } from './grooves/bossa';
 // import { disco } from '../src/grooves/disco';
 import { funk } from './grooves/funk';
@@ -43,9 +45,9 @@ export {
     RealParser,
     Voicing,
     Permutation,
-    Drumset,
-    Piano,
-    Metronome,
+    piano, 
+    drumset, 
+    metronome,
     bossa,
     funk,
     swing,
