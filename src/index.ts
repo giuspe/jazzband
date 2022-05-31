@@ -24,7 +24,7 @@ import { bossa } from './grooves/bossa';
 // import { disco } from '../src/grooves/disco';
 import { funk } from './grooves/funk';
 import { swing } from './grooves/swing';
-/* import { WebAudioFont } from './instruments/WebAudioFont'; */
+import { WebAudioFont } from './instruments/WebAudioFont'
 
 export {
     Trio,
@@ -36,7 +36,7 @@ export {
     Musician,
     Synthesizer,
     Sampler,
-    /* WebAudioFont, */
+    WebAudioFont,
     Permutator,
     MidiOut,
     PlasticDrums,

@@ -19,4 +19,5 @@ import { piano, drumset, metronome } from './samples/samples';
 import { bossa } from './grooves/bossa';
 import { funk } from './grooves/funk';
 import { swing } from './grooves/swing';
-export { Trio, Band, Pianist, Bassist, Drummer, Instrument, Musician, Synthesizer, Sampler, Permutator, MidiOut, PlasticDrums, Pulse, util, RealParser, Voicing, Permutation, piano, drumset, metronome, bossa, funk, swing, };
+import { WebAudioFont } from './instruments/WebAudioFont';
+export { Trio, Band, Pianist, Bassist, Drummer, Instrument, Musician, Synthesizer, Sampler, WebAudioFont, Permutator, MidiOut, PlasticDrums, Pulse, util, RealParser, Voicing, Permutation, piano, drumset, metronome, bossa, funk, swing, };

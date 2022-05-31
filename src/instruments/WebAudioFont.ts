@@ -1,4 +1,4 @@
-/* import { Instrument } from './Instrument';
+import { Instrument } from './Instrument';
 import WebAudioFontPlayer from 'webaudiofont';
 
 export class WebAudioFont extends Instrument {
@@ -35,4 +35,4 @@ export class WebAudioFont extends Instrument {
         }
     }
 
-} */
+}
